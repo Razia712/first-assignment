@@ -1,8 +1,37 @@
-p{
+.first-border{
     color: honeydew;
     text-align: center;
     word-spacing: 50px;
-    background-color: lightblue;
+    background-color:lightcoral;
     height: 70px;
     margin-top: 0%;
+
+} 
+
+
+body{
+    font-family: 'Anton', sans-serif;
+}
+.specific-area{
+    color: lightcoral;
+}
+section{
+    display: flex;
+}
+.half-width img{
+    width: 80%;
+    padding: 10%;
+}
+.half-width{
+    width: 100%;
+    padding: 5%;
+    
+}
+.link-button{
+    text-decoration: none;
+    color:black;
+    padding: 10px ;
+    background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
+    border-radius: 10px;
+    
 }
