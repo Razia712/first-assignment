@@ -5,8 +5,9 @@
     background-color:lightcoral;
     height: 70px;
     margin-top: 0%;
+ 
+}
 
-} 
 
 
 body{
@@ -50,7 +51,16 @@ body{
     margin-left: 2%;
     margin-left: 2%;
     padding: 5%;
-    box-shadow: 5px 5px 5px rgb(136, 128, 123);
+    box-shadow: 5px 5px 5px 5px rgb(136, 128, 123);
+}
+.image img{
+    width: 100%;
+
+}
+.footer-area{
+    text-align: center;
+    background-color: lightcoral;
+   
 }
 
 
