@@ -11,12 +11,14 @@
 
 body{
     font-family: 'Anton', sans-serif;
+    margin: 0%;
 }
 .specific-area{
     color: lightcoral;
 }
-section{
+.flexible-container{
     display: flex;
+    margin-bottom: 80px;
 }
 .half-width img{
     width: 80%;
@@ -32,6 +34,26 @@ section{
     color:black;
     padding: 10px ;
     background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
-    border-radius: 10px;
-    
+    border-radius: 10px; 
 }
+.second-section{
+
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+   
+}
+.center{
+    text-align: center;
+}
+.border-area{
+    width:20%;
+    margin-left: 2%;
+    margin-left: 2%;
+    padding: 5%;
+    box-shadow: 5px 5px 5px rgb(136, 128, 123);
+}
+
+
+
+
+
